@@ -11,3 +11,9 @@
 git clone https://github.com/Cr4zyD1am0nd/labirint-automation.git
 cd labirint-automation
 pip install -r requirements.txt
+
+## Запуск тестов
+
+- Все тесты:
+```bash
+pytest tests/ --alluredir=allure-results

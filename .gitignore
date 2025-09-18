@@ -1,19 +1,6 @@
-# Byte-compiled / cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Pytest cache
-pytest_cache/
-
-# Allure results
-allure-results/
-
-# Environment
-.env
+# .gitignore
 venv/
-.venv/
-
-# IDE configs
-.vscode/
-.idea/
+__pycache__/
+*.pyc
+allure-results/
+.env
